@@ -73,6 +73,12 @@
             "asOfVersion": "3.4.0"
         },
         {
+            "libraryName": "JSON-Patch",
+            "typingsPackageName": "fast-json-patch",
+            "sourceRepoURL": "https://github.com/Starcounter-Jack/JSON-Patch",
+            "asOfVersion": "1.1.5"
+        },
+        {
             "libraryName": "FineUploader",
             "typingsPackageName": "fine-uploader",
             "sourceRepoURL": "http://fineuploader.com/",
