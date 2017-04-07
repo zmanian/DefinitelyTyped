@@ -71,6 +71,7 @@ export interface Massive {
 	exceptions: string;
 	excludeFunctions: boolean;
 	functionBlacklist: string;
+	saveDoc(name: string, data: any, callback: ResultCallback): void;
 }
 
 export type ResultCallback = (err: Error, res: any) => void;
@@ -102,4 +103,4 @@ export function connect(options: massive.ConnectionOptions, callback: ConnectCal
 
 export function run(context: string, filter: number|number[], callback: ResultCallback): void;
 
-export function saveDoc(name: string, data: any, callback: ResultCallback): void;
+
